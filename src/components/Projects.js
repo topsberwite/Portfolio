@@ -38,7 +38,9 @@ const Projects = () => {
               <p>A website where you can keep your secrets.</p>
               <p>
                 <span>Stack used:</span>{" "}
-                <i>Node.js / Express.js, EJS, CSS, JavaScript</i>
+                <i>
+                  Node.js / Express.js, EJS, CSS, JavaScript, MongoDB / Mongoose
+                </i>
               </p>
               <div className="code">
                 <Link to="https://github.com/topsberwite/Secrets">
@@ -81,7 +83,9 @@ const Projects = () => {
               </p>
               <p>
                 <span>Stack used:</span>{" "}
-                <i>Node.js / Express.js, EJS, CSS, JavaScript</i>
+                <i>
+                  Node.js / Express.js, EJS, CSS, JavaScript, MongoDB / Mongoose
+                </i>
               </p>
               <div className="code">
                 <Link to="https://github.com/topsberwite/Blog-website">
