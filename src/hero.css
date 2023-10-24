@@ -1,0 +1,97 @@
+/* hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 20%;
+  height: 100vh;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  color: rgb(255, 255, 255);
+}
+
+.hero-heading {
+  width: 80vh;
+  position: relative;
+}
+
+.hero-heading h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-heading p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.link-icons {
+  margin-right: 20px;
+  color: rgb(200, 200, 200);
+  font-size: 2rem;
+  transition: 0.25s;
+  border-radius: 5px;
+}
+
+.link-icons:hover {
+  box-shadow: rgba(255, 255, 255, 0.25) 0 9px 10px;
+  transform: translateY(-2px);
+}
+
+.link-icons:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.hero-heading button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: 0.25s;
+}
+
+.hero-heading button:hover {
+  background-color: rgb(196, 196, 196);
+  color: rgb(75, 75, 75);
+  box-shadow: rgba(255, 255, 255, 0.25) 0 9px 10px;
+  transform: translateY(-2px);
+}
+
+.hero-heading button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.carousel {
+  height: 200px;
+  width: 150px;
+}
+
+.carousel p {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 1141px) {
+  .hero {
+    flex-direction: column;
+  }
+  
+  .hero-heading {
+    width: 50vh;
+  }
+
+  .hero-heading h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .carousel {
+    margin-top: 100px;
+  }
+}
