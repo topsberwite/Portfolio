@@ -74,12 +74,7 @@
   .projects {
     padding: 0 5%;
   }
-
-  .projects img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
+  
   .project, .secret-project, .blog-project {
     flex-direction: column;
   }
@@ -87,8 +82,15 @@
   .project-description {
     width: 100%;
   }
+}
 
-  .code {
-    justify-content: space-around;
+@media (max-width: 1024px) {
+  .projects img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .project, .secret-project, .blog-project {
+    flex-direction: column;
   }
 }

@@ -17,99 +17,117 @@ const Skills = () => {
       </Reveal>
       <Reveal>
         <div className="programming-skills">
-          <div className="front-end">
-            <h2>Front-end Programming Skills</h2>
-            <ul>
-              <li id="html-logo">HTML</li>
-              <ProgressBar
-                animated
-                now={html}
-                label={`${html}%`}
-                variant="custom"
-              />
-              <li id="css-logo">CSS / Bootstrap</li>
-              <ProgressBar
-                animated
-                now={css}
-                label={`${css}%`}
-                variant="custom"
-              />
-              <li id="javascript-logo">JavaScript</li>
-              <ProgressBar
-                animated
-                now={js}
-                label={`${js}%`}
-                variant="custom"
-              />
-              <li id="react-logo">React.JS</li>
-              <ProgressBar
-                animated
-                now={react}
-                label={`${react}%`}
-                variant="custom"
-              />
-            </ul>
-          </div>
-          <div className="back-end">
-            <h2>Back-end Programming Skills</h2>
-            <ul>
-              <li id="node-logo">Node.js / Express.JS</li>
-              <ProgressBar
-                animated
-                now={node}
-                label={`${node}%`}
-                variant="custom"
-              />
-              <li id="ejs-logo">EJS</li>
-              <ProgressBar
-                animated
-                now={ejs}
-                label={`${ejs}%`}
-                variant="custom"
-              />
-              <li id="mongodb-logo">MongoDB</li>
-              <ProgressBar
-                animated
-                now={mongodb}
-                label={`${mongodb}%`}
-                variant="custom"
-              />
-            </ul>
-          </div>
+          <Reveal>
+            <div className="front-end">
+              <h2>Front-end Programming Skills</h2>
+              <ul>
+                <Reveal>
+                  <li id="html-logo">HTML</li>
+                  <ProgressBar
+                    animated
+                    now={html}
+                    label={`${html}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+                <Reveal>
+                  <li id="css-logo">CSS / Bootstrap</li>
+                  <ProgressBar
+                    animated
+                    now={css}
+                    label={`${css}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+                <Reveal>
+                  <li id="javascript-logo">JavaScript</li>
+                  <ProgressBar
+                    animated
+                    now={js}
+                    label={`${js}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+                <Reveal>
+                  <li id="react-logo">React.JS</li>
+                  <ProgressBar
+                    animated
+                    now={react}
+                    label={`${react}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+              </ul>
+            </div>
+          </Reveal>
+          <Reveal>
+            <div className="back-end">
+              <h2>Back-end Programming Skills</h2>
+              <ul>
+                <Reveal>
+                  <li id="node-logo">Node.js / Express.JS</li>
+                  <ProgressBar
+                    animated
+                    now={node}
+                    label={`${node}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+                <Reveal>
+                  <li id="ejs-logo">EJS</li>
+                  <ProgressBar
+                    animated
+                    now={ejs}
+                    label={`${ejs}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+                <Reveal>
+                  <li id="mongodb-logo">MongoDB / Mongoose</li>
+                  <ProgressBar
+                    animated
+                    now={mongodb}
+                    label={`${mongodb}%`}
+                    variant="custom"
+                  />
+                </Reveal>
+              </ul>
+            </div>
+          </Reveal>
         </div>
       </Reveal>
       <Reveal>
         <div className="soft-skills">
           <h2>Soft Skills</h2>
           <ul>
-            <li>
+            <Reveal>
               <img
                 src="/images/problem-solving.png"
                 alt="problem-solving-skills"
               ></img>
-              Problem-solving skills
-            </li>
-            <li>
+              <li>Problem-solving skills</li>
+            </Reveal>
+            <Reveal>
               <img
                 src="/images/decision-making.png"
                 alt="decision-making-skills"
               ></img>
-              Decision making skills
-            </li>
-            <li>
+              <li>Decision making skills</li>
+            </Reveal>
+            <Reveal>
               <img
                 src="/images/communication.png"
                 alt="communication-skills"
               ></img>
-              Communication skills
-            </li>
-            <li>
+              <li>Communication skills</li>
+            </Reveal>
+            <Reveal>
               <img
                 src="/images/flexible.png"
                 alt="flexible-adaptable-skills"
               ></img>
-              Flexible / Adaptable
-            </li>
+              <li>Flexible / Adaptable</li>
+            </Reveal>
           </ul>
         </div>
       </Reveal>
